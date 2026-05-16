@@ -1,4 +1,6 @@
-# lrn
+# Loren Stanoi
+
+[linkedin.com/in/loren-stanoi-575598276](https://www.linkedin.com/in/loren-stanoi-575598276/)
 
 I build production AI-agent systems by directing models and understanding
 how they actually behave — where they drift, when they lie about being
