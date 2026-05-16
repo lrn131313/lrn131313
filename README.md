@@ -25,12 +25,22 @@ your machine. No central server, no SaaS dependency.
   are distilled into reusable role skills automatically
 - Built-in pre-push secret scanner, OAuth Device Flow, signed updater
 - LangGraph + FastAPI control plane + Next.js 16 dashboard + Tauri shell
+- Per-role AGENTS.md + 4-level memory bundles + machine-checkable
+  OpenAPI/design-spec contract gates — how context and contracts are
+  exposed to orchestrated agents so they stay on-rails
 
-**GitNexus** — a code knowledge graph exposed to AI agents over **MCP**
-(plus CLI + 7 task-routed skills). Agents read process-grouped execution
-flows, symbol blast-radius, and git-diff impact through token-cheap
-resources instead of grepping blind. A working answer to "how do you
-design docs and tooling so agents use them effectively."
+### Shipped to production
+
+**[app.primkron.ro](https://app.primkron.ro)** — Primkron CRM, a sales
+CRM for auto dealerships. Built on **Supabase** (Auth, Row-Level Security,
+Postgres RPC, Management API) with Next.js. Live and in real use.
+
+**[echilibrultau.ro](https://echilibrultau.ro)** — a production web
+platform I built and shipped end to end (Next.js + Supabase + Vercel +
+Cloudflare). Live.
+
+Source for these is private (production / client code) — happy to walk
+through the architecture or open access on request.
 
 ### How I work
 
@@ -38,5 +48,3 @@ I don't come from a traditional CS track. I ship by decomposing a
 problem precisely enough that an AI system can build it, instrumenting
 what it does, and fixing the layer where the assumption broke. The
 output is real: tested, shipped, used.
-
-Built under PRIMKRON SRL (Brașov, Romania).
